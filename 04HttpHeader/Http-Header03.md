@@ -1,0 +1,235 @@
+
+- https://www.rfc-editor.org/rfc/rfc9110.html?utm_source=chatgpt.com
+- https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
+- https://developer.mozilla.org/ko/docs/Glossary/Request_header?utm_source=chatgpt.com
+- https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Headers
+- https://httpwg.org/specs/rfc9110.html#header.fields
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers👉좌측목록
+
+
+# MDN-Header
+- Accept
+- Accept-CH
+- Accept-Encoding
+- Accept-Language
+- Accept-Patch
+- Accept-Post
+- Accept-Ranges
+- Access-Control-Allow-Credentials
+- Access-Control-Allow-Headers
+- Access-Control-Allow-Methods
+- Access-Control-Allow-Origin
+- Access-Control-Expose-Headers
+- Access-Control-Max-Age
+- Access-Control-Request-Headers
+- Access-Control-Request-Method
+- Age
+- Allow
+- Alt-Svc
+- Alt-Used
+- Attribution-Reporting-EligibleExperimental
+- Attribution-Reporting-Register-SourceExperimental
+- Attribution-Reporting-Register-TriggerExperimental
+- Authorization
+- Cache-Control
+- Clear-Site-Data
+- Connection
+- Content-Digest
+- Content-Disposition
+- Content-DPRNon-standardDeprecated
+- Content-Encoding
+- Content-Language
+- Content-Length
+- Content-Location
+- Content-Range
+- Content-Security-Policy
+- Content-Security-Policy-Report-Only
+- Content-Type
+- Cookie
+- Critical-CHExperimental
+- Cross-Origin-Embedder-Policy
+- Cross-Origin-Opener-Policy
+- Cross-Origin-Resource-Policy
+- Date
+- Device-Memory
+- DNTNon-standardDeprecated
+- DownlinkExperimental
+- DPRNon-standardDeprecated
+- Early-DataExperimental
+- ECTExperimental
+- ETag
+- Expect
+- Expect-CTDeprecated
+- Expires
+- Forwarded
+- From
+- Host
+- If-Match
+- If-Modified-Since
+- If-None-Match
+- If-Range
+- If-Unmodified-Since
+- Keep-Alive
+- Last-Modified
+- Link
+- Location
+- Max-Forwards
+- NELExperimental
+- No-Vary-SearchExperimental
+- Observe-Browsing-TopicsExperimentalNon-standard
+- Origin
+- Origin-Agent-ClusterExperimental
+- Permissions-PolicyExperimental
+- PragmaDeprecated
+- Priority
+- Proxy-Authenticate
+- Proxy-Authorization
+- Range
+- Referer
+- Referrer-Policy
+- Refresh
+- Report-ToNon-standardDeprecated
+- Reporting-EndpointsExperimental
+- Repr-Digest
+- Retry-After
+- RTTExperimental
+- Save-DataExperimental
+- Sec-Browsing-TopicsExperimentalNon-standard
+- Sec-CH-Prefers-Color-SchemeExperimental
+- Sec-CH-Prefers-Reduced-MotionExperimental
+- Sec-CH-Prefers-Reduced-TransparencyExperimental
+- Sec-CH-UAExperimental
+- Sec-CH-UA-ArchExperimental
+- Sec-CH-UA-BitnessExperimental
+- Sec-CH-UA-Form-FactorsExperimental
+- Sec-CH-UA-Full-VersionDeprecated
+- Sec-CH-UA-Full-Version-ListExperimental
+- Sec-CH-UA-MobileExperimental
+- Sec-CH-UA-ModelExperimental
+- Sec-CH-UA-PlatformExperimental
+- Sec-CH-UA-Platform-VersionExperimental
+- Sec-CH-UA-WoW64Experimental
+- Sec-Fetch-Dest
+- Sec-Fetch-Mode
+- Sec-Fetch-Site
+- Sec-Fetch-User
+- Sec-GPCExperimental
+- Sec-Purpose
+- Sec-WebSocket-Accept
+- Sec-WebSocket-Extensions
+- Sec-WebSocket-Key
+- Sec-WebSocket-Protocol
+- Sec-WebSocket-Version
+- Server
+- Server-Timing
+- Service-Worker
+- Service-Worker-Allowed
+- Service-Worker-Navigation-Preload
+- Set-Cookie
+- Set-LoginExperimental
+- SourceMap
+- Speculation-RulesExperimental
+- Strict-Transport-Security
+- Supports-Loading-ModeExperimental
+- TE
+- Timing-Allow-Origin
+- TkNon-standardDeprecated
+- Trailer
+- Transfer-Encoding
+- Upgrade
+- Upgrade-Insecure-Requests
+- User-Agent
+- Vary
+- Via
+- Viewport-WidthNon-standardDeprecated
+- Want-Content-Digest
+- Want-Repr-Digest
+- WarningDeprecated
+- WidthNon-standardDeprecated
+- WWW-Authenticate
+- X-Content-Type-Options
+- X-DNS-Prefetch-ControlNon-standard
+- X-Forwarded-ForNon-standard
+- X-Forwarded-HostNon-standard
+- X-Forwarded-ProtoNon-standard
+- X-Frame-Options
+- X-Permitted-Cross-Domain-PoliciesNon-standard
+- X-Powered-ByNon-standard
+- X-Robots-TagNon-standard
+- X-XSS-ProtectionNon-standardDeprecated
+
+
+# MDN-request methods
+- CONNECT
+- DELETE
+- GET
+- HEAD
+- OPTIONS
+- PATCH
+- POST
+- PUT
+- TRACE
+
+
+#  response status codes
+- 100 Continue
+- 101 Switching Protocols
+- 102 Processing
+- 103 Early Hints
+- 200 OK
+- 201 Created
+- 202 Accepted
+- 203 Non-Authoritative Information
+- 204 No Content
+- 205 Reset Content
+- 206 Partial Content
+- 207 Multi-Status
+- 208 Already Reported
+- 226 IM Used
+- 300 Multiple Choices
+- 301 Moved Permanently
+- 302 Found
+- 303 See Other
+- 304 Not Modified
+- 307 Temporary Redirect
+- 308 Permanent Redirect
+- 400 Bad Request
+- 401 Unauthorized
+- 402 Payment Required
+- 403 Forbidden
+- 404 Not Found
+- 405 Method Not Allowed
+- 406 Not Acceptable
+- 407 Proxy Authentication Required
+- 408 Request Timeout
+- 409 Conflict
+- 410 Gone
+- 411 Length Required
+- 412 Precondition Failed
+- 413 Content Too Large
+- 414 URI Too Long
+- 415 Unsupported Media Type
+- 416 Range Not Satisfiable
+- 417 Expectation Failed
+- 418 I'm a teapot
+- 421 Misdirected Request
+- 422 Unprocessable Content
+- 423 Locked
+- 424 Failed Dependency
+- 425 Too Early
+- 426 Upgrade Required
+- 428 Precondition Required
+- 429 Too Many Requests
+- 431 Request Header Fields Too Large
+- 451 Unavailable For Legal Reasons
+- 500 Internal Server Error
+- 501 Not Implemented
+- 502 Bad Gateway
+- 503 Service Unavailable
+- 504 Gateway Timeout
+- 505 HTTP Version Not Supported
+- 506 Variant Also Negotiates
+- 507 Insufficient Storage
+- 508 Loop Detected
+- 510 Not Extended
+- 511 Network Authentication Required

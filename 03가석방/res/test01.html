@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Bar Chart</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <svg width="500" height="300"></svg>
+
+    <script>
+        // 데이터 배열 (각 값이 막대 그래프의 높이를 결정)
+        const data = [25, 40, 50, 75, 90, 30, 60];
+
+        // SVG 선택
+        const svg = d3.select("svg");
+
+        // 막대 그래프 생성
+        svg.selectAll("rect") // 'rect' 요소를 선택 (초기에는 없음)
+            .data(data) // 데이터를 바인딩
+            .enter() // 데이터 개수만큼 요소 생성
+            .append("rect") // 'rect' 요소 추가 (막대)
+            .attr("x", (d, i) => i * 60) // X 좌표 (막대 위치)
+            .attr("y", d => 300 - d * 3) // Y 좌표 (높이가 클수록 위로 이동)
+            .attr("width", 50) // 막대 너비
+            .attr("height", d => d * 3) // 막대 높이
+            .attr("fill", "steelblue"); // 색상 지정
+    </script>
+</body>
+</html>
